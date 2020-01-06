@@ -118,7 +118,7 @@ class UserController extends Controller
             $user_details = Employee_detail::create($user_array);
             $msg = 'User successfully Added';
         }
-
+			/// updated a user controller
         /*if ($user->emp_id) {
             $user->employee_details()->update($user_array);
         }
